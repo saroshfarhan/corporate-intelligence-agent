@@ -16,6 +16,12 @@ A multi-agent system built with Google's Agent Development Kit (ADK) that provid
   - Recent developments, risks, and market sentiment
   - Experimental 30-day price outlook
 
+## Architecture
+
+The system uses a hierarchical multi-agent architecture:
+
+![Multi-Agent Architecture](img/archtctr.png)
+
 ## Project Structure
 
 ```
@@ -99,28 +105,15 @@ Then type your queries:
 ```
 **Summary**
 
-Apple (AAPL) demonstrates robust financial fundamentals, highlighted by a substantial 
-market capitalization of over $4 trillion, impressive revenue growth of 7.9%, and a 
-healthy operating margin of 31.6%. The company maintains a strong liquidity position 
-with significant cash reserves exceeding its total debt. Recent SEC filings highlight 
-key risks including supply chain disruptions, antitrust litigation, and foreign 
-exchange fluctuations.
+Apple (AAPL) demonstrates robust financial health, boasting a market capitalization exceeding $4 trillion, a revenue growth rate of 7.9%, and operating margins of 31.6%. The company maintains a significant cash reserve of $54.7 billion, though it also carries $112.4 billion in debt, with a P/E ratio of 36.9 indicating strong investor confidence. Recent SEC filings highlight critical risks, including potential supply chain disruptions, ongoing antitrust litigation across multiple jurisdictions, and the impact of foreign exchange fluctuations on its international financial performance.
 
 **Risks & Recent Developments**
 
-Apple faces significant headwinds from ongoing antitrust investigations and lawsuits 
-in the U.S. and Europe concerning its App Store policies and alleged monopolistic 
-practices. Despite advancements in artificial intelligence, the company's AI strategy 
-is under scrutiny for its pace compared to competitors. Weakening consumer sentiment 
-and rising competition in China also pose risks, although the company's strong brand 
-and ecosystem provide some resilience.
+Apple is currently navigating a complex landscape of global regulatory scrutiny, with significant antitrust investigations and lawsuits filed by the US Justice Department and European authorities concerning app store policies and market dominance. These legal challenges, alongside a separate securities lawsuit and a class-action suit related to Siri data, pose considerable risks. However, the company has seen positive reception for its latest iPhone series in China and continued growth in its Services segment, alongside a generally positive analyst and user sentiment.
 
 **Experimental Outlook**
 
-The experimental outlook for Apple (AAPL) over the next 30 days is moderately bullish. 
-The forecast indicates a 61.74% probability of the stock price increasing, with an 
-anticipated return of 3.07% and expected volatility of 9.30%. This forecast is 
-experimental and should not be considered investment advice.
+The experimental outlook for Apple (AAPL) over the next 30 days is moderately bullish, with a projected 61.74% probability of an increase in stock price, an expected return of 3.07%, and an anticipated volatility of 9.30%. This forecast carries an experimental Sharpe ratio of 0.82. It is important to note that this outlook is experimental and should not be considered investment advice.
 ```
 
 ## Architecture
