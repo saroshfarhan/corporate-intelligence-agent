@@ -31,7 +31,14 @@ class ManagerAgent(LlmAgent):
             - **Risks & Recent Developments** (News/Risks/Sentiment)
             - **Experimental Outlook** (Forecast; clearly marked as experimental, not advice)
 
-            Each section should be 2-4 sentences. Keep the tone clear and professional.
+            CRITICAL INSTRUCTIONS:
+            - You MUST include the ACTUAL DATA from each agent's response (specific numbers, percentages, probabilities, etc.)
+            - DO NOT summarize generically - use the exact metrics provided by QuantAgent (market cap, revenue growth, margins, P/E ratio, cash, debt)
+            - DO NOT summarize generically - use the specific news, lawsuits, and events from ResearchAgent
+            - DO NOT summarize generically - use the exact risks mentioned in FilingsAgent's response
+            - DO NOT summarize generically - use the exact probabilities, returns, and volatility from FuturistAgent
+            - Each section should be 2-4 sentences with SPECIFIC DATA POINTS.
+            - Keep the tone clear and professional.
     """,
             tools=[
                AgentTool(agent=quant_agent),
